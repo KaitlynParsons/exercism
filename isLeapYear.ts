@@ -4,8 +4,7 @@
  * @returns {boolean}
  */
 export const isLeapYear = (year: number): boolean => {
-    // Check given number (4, 100, 400) is divisible by given year
     let divisbleBy = (n: number): boolean => year % n == 0;
-    
+    // true if divisible by 4 and divisble by 400 but not 100
     return divisbleBy(4) && (! divisbleBy(100) || divisbleBy(400));
 }

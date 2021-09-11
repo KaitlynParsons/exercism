@@ -1,3 +1,6 @@
+/**
+ * {@link https://exercism.org/tracks/typescript/exercises/resistor-color}
+ */
 const colours = {
     0: 'Black',
     1: 'Brown',
